@@ -1,7 +1,7 @@
 from flask import Flask, request, json
 import requests
 from state_machine import StateMachine
-from state_machine import filebase
+from state_machine import firebase
 from ai import compute
 
 def push(text, userID):
